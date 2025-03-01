@@ -278,15 +278,7 @@ max-width: 100px;
                 <button onclick="editEntry(${row.id}, '${row.assign}', '${row.status}', '${row.remark || ""}')">Edit</button>
                
             </td>
-            <td>
-                <button style="background-color: green; color: white;" onclick="sendWhatsApp('${row.phone}', '${message}')">Send WhatsApp</button>
-                
-            </td>
-              </td>
- 		<td>
-                <button style="background-color: green; color: white;" onclick="sendWhatsApp('919063775895', 'You have a New assignment of  ${row.name} with regard to *${row.work}* work and related remarks  *${row.remark}* and update the status at https://sahithitax.github.io/SAHITHI/')">Msg to Assignee</button>
-	
-            </td>
+            
         </tr>
     `;
 }).join("")}
