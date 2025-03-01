@@ -187,7 +187,7 @@ data = data.filter(row => row.assign === "SAHITHI");
         let assignOptions = [...new Set(data.map(row => row.assign).filter(Boolean))];
         let statusOptions = [...new Set(data.map(row => row.status).filter(Boolean))];
 
-        let tableHeaders = ["Name", "Phone", "Email", "Work", "Assign To", "Status", "Remark", "Actions", "WhatsApp", "Msg to Assignee"];
+        let tableHeaders = ["Name", "Phone", "Email", "Work", "Assign To", "Status", "Remark", "Actions"];
 
         let output = `
         <style>
